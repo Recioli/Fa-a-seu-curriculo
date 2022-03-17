@@ -1,0 +1,154 @@
+.page-header{
+	color:#ff8a00;;	
+}
+
+h1{
+font-weight: bold;
+
+}	
+.categoria{
+		color:#ff8a00;;
+}
+label{
+	color:#4a4a4a;
+	font-size:18px;
+}
+hr{
+	width:100%
+  color:#d77400;
+      background-color: #ff8a00;;
+      height: 2px;	  
+}
+.bt-downLoad{
+	float:right;
+	margin-right:25%;
+}
+.downLoad{
+	border-radius: 0px;
+}
+.bt-visualiza{
+	float:right;
+	margin-right:65px;
+}
+.visualiza{
+	border-radius: 0px;		
+}
+#base{
+	display: none;
+	width:595px;
+	height:930px;
+	background: #fff;
+	z-index: 1;
+}
+
+#curriculo_print{
+	font-family:"arial";
+	background:#fff;
+	padding-left:40px;
+	margin-top:70px;
+	width:595px;
+	height:900px;
+	z-index: 2;
+	
+}
+	
+@media(min-width:765px){
+	
+		.nacional-civil-idade{
+				width:100%;	
+			}
+		.nacional{
+				width:51.3%;
+				float:left;
+			}
+		.civil{
+				width: 23.5%;
+				float:left;
+				margin-left:40px;	
+			}
+		.m_idade{
+				width:23.5%;
+				float:right;
+				margin-left:20px;
+				
+			}
+		.end-cep-cidade-uf{
+				
+				width:100%;
+			}
+		.end{
+				width:51.3%;
+				float: left;	
+			}
+		.cp{
+				width: 15%;
+				float:left;
+				margin-left:40px;
+			}
+		.city{
+				width: 20%;
+				float:left;
+				margin-left:37px;
+		}
+		.uf{
+				width: 10%;
+				margin-left:20px;
+				float:right;
+		}
+		.fone-cel-mail{
+				width:100%;
+		}
+		.fone{		
+				width: 24.5%;
+				float:left;	
+		}
+		.cel{
+				width: 24.5%;
+				float:left;	
+				margin-left:40px;
+		}
+		.mail{
+				width: 49%;
+				float:right;	
+		}
+		.objetivo-qualificacoes{
+				width:50%;
+				float:left;
+				padding-left:100px
+		}
+		.outros-conhecimentos{
+				width:50%;
+				float:left;
+				padding-left:40px;
+				padding-right:100px;	
+		}
+		.btFecha{
+			color: #ffffff;
+			float:right;
+			margin-top:5%;
+			margin-right:30%;
+		}
+		.botoes{
+			float:right;
+			margin-right:0px;
+			z-index:3;
+		}
+		#base{
+			position:absolute;
+			width:100%;
+			height:200%;
+			background-color: rgba(0,0,0,0.8);
+			top: 0px; 
+			left: 0px;
+			z-index:1;
+		}
+		#curriculo_print{
+			position: absolute;
+			left:25%;
+			top: 5%;
+		}
+}
+
+
+
+

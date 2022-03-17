@@ -1,0 +1,55 @@
+
+
+	#campo-nome{
+		text-align: center;
+	}
+	#campo-nacional-civil-idade{ 
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	#campo-endereco-cep{
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 0;
+		}
+	#campo-cidade-uf{
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 0;
+		}
+	#campo-fone{
+		font-size: 14px;
+		text-align: center;
+		margin-bottom: 0;
+		}
+	#campo-mail{
+		font-size: 14px;
+		text-align: center;
+		}
+	#campo-objetivo{
+		font-size: 14px;
+		text-align: left;
+	}								
+	#campo-resumo{
+		font-size: 14px;
+		text-align: left;
+	}					
+	#campo-escolaridade{
+		font-size: 14px;
+		text-align: left;
+	}											
+	#campo-idiomas{
+		font-size: 14px;
+		text-align: left;
+	}		
+	#campo-complementar{
+		font-size: 14px;
+		text-align: left;
+	}
+	#campo-informatica{
+		font-size: 14px;
+		text-align: left;
+	}
+
+

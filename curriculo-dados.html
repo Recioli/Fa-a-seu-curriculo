@@ -1,0 +1,169 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/estilo.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/print.css"/>
+	</head>
+		<body>
+			<title>currículo</title>
+			
+			<div class="page-header container text-center top">
+				<h1>Faça seu currículo</h1>
+			</div>
+			
+			<div class=" meusDados container">
+						<h2 class ="text-left categoria">Dados Pessoais</h2>
+						<hr></hr>
+					<form class="dados-pessoais">
+				
+						<div class="form-group row">
+							<label for="nome">Nome</label><br>
+							<input type="text" class="nome form-control" maxlength="80" size="80" placeholder="Ex: João da Silva"/> </p>
+						</div>
+						
+						<div class="nacional-civil-idade">
+							<div class="form-group row nacional">
+								<label for="nacionalidade">Nacionalidade</label><br> 
+								<input type="text" maxlength="60" size="60" class="nacionalidade form-control" placeholder="Ex: Brasileiro" /> </p>
+							</div>
+							<div class="form-group row civil">
+								<label for="estadocivil">Estado Civil</label><br> 
+								<input type="text" maxlength="60" size="60" class="estadocivil form-control" placeholder="Ex: Solteiro" /> </p>
+							</div>
+								<div class="form-group row m_idade">
+								<label for="idade">Idade</label><br> 
+								<input type="text" maxlength="2" size="2" class="idade form-control" placeholder="Ex: 20"/> </p>
+							</div>
+						</div>
+						
+						<div class "end-cep-cidade-uf">
+						
+							<div class="form-group row end">
+								<label for="endereco">Endereço</label><br> 
+								
+								<input type="text" class="endereco form-control" placeholder="Ex: Av. Paulista, 1000 02222-222 - Bela Vista"/></p>
+							</div>	
+							<div class="form-group row cp">
+								<label for="cep">CEP</label><br> 
+								<input type="text" maxlength="13" size="13" class="cep form-control" placeholder="Ex: 05793-300"/></p>
+							</div>
+							<div class="form-group row city">
+								<label for="cidade">Cidade</label><br> 
+								<input type="text" maxlength="60" size="60" class="cidade form-control" placeholder="Ex: São Paulo"/></p>
+							</div>									
+							<div class="form-group row uf">
+								<label for="estado">Estado</label><br> 
+								<input type="text" maxlength="2" size="2" class="estado form-control" placeholder="Ex: SP"/></p>
+							</div>
+						</div>
+						
+						<div class="fone-cel-mail ">
+							<div class="form-group row fone">
+								<label for="telefone">Telefone</label><br> 
+								<input type="text" maxlength="15" size="15"class="telefone form-control" placeholder="Ex: 11 3040-1000"/></p>
+							</div>	
+								<div class="form-group row cel">
+								<label for="celular">Celular</label><br> 
+								<input type="text" maxlength="15" size="15" class="celular form-control" placeholder="Ex: 11 9900-0011"/></p>
+							</div>
+							<div class="form-group row mail">
+								<label for="email">Endereço de e-mail</label><br> 
+								<input type="text" maxlength="80" size="80" class="email form-control" placeholder="Ex: xxxxxx@xxxxx.com.br"/></p>
+							</div>	
+						</div>
+					</form>	
+			</div>	
+		
+			<div class=" objetivo-qualificacoes container">	
+				<h2 class="categoria text-left">Objetivo e Qualificações</h2>
+				<hr></hr>
+				<form class="objetivo-escolaridade">
+					<div class="form-group row">
+						<label for="objetivo">Objetivo</label><br> 
+						<input class="objetivo form-control" maxlength="80" size="80" placeholder = "Ex: Estágio em Administração "></input>
+					</div>				
+					<div class="form-group row">
+						<label for="resumo">Resumo das Qualificações</label><br> 
+						<textarea type="text" class="resumo form-control" maxlength="560" size="560" rows="4" placeholder="Ex: - Carreira em evolução na área Administrativa, com habilidade para atuar no auxílio em rotinas do setor, contato com clientes e fornecedores, organização do ambiente de trabalho e nas demais atividades diárias de uma empresa, visando à qualidade do serviço prestado. "></textarea>
+					</div>
+					<div class="form-group row">
+						<label for="escolaridade">Escolaridade</label><br> 
+						<textarea  type="text" class="escolaridade form-control" maxlength="240" size="240" rows="4" placeholder ="Ex: Graduação em Administração de Empresas - conclusão em 12/2015 Universidade Nove de Julho - UNINOVE "></textarea >
+					</div>
+				</form>
+			</div>	
+		
+			<div class = "outros-conhecimentos container box-header with-border">
+				<h2 class="categoria text-left">Conhecimentos Extras</h2>
+				<hr></hr>
+				<form class="conhecimentos-extras">
+					<div class="form-group row">
+						<label for="idiomas">Idiomas</label><br> 
+						<input type="text" class="idiomas form-control" maxlength="80" size="80" placeholder="Ex: Inglês e Espanhol - Básico"/></input>
+					</div>
+					<div class="form-group row">
+						<label for="complementar">Formação Complementar</label><br> 
+						<textarea  type="text" class="complementar form-control" maxlength="350" size="350" rows= "4" placeholder="Ex: - Princípios de Liderança - Nome da instituição - conclusão em 20/02/2018" ></textarea>
+					</div>
+					<div class="form-group row">
+						<label for="informatica">Informática</label><br> 
+						<textarea type="text" class="informatica form-control" maxlength="240" size="240" rows = "4" placeholder="Ex: Conhecimento em Pacote Office, Microsiga e Internet." ></textarea>
+					</div>					
+				</form>
+			</div>					
+			
+			<div class= "botoes container col-lg-12">
+				<form>
+					<div class="form-group row bt-visualiza">
+						<button type="button" class="visualiza btn btn-primary btn-lg" onclick="mostraCurriculo(true)" >Visualizar</button>
+					</div>
+					<div class="form-group row bt-download">
+						<button type="button" class="download btn btn-success btn-lg" onclick="GeraPDF()" >Download</button>
+					</div>
+				</form>	
+			</div>
+			
+			<div class="base-visualiza"id="base">
+			<a class= "btFecha" href="#" onclick="mostraCurriculo(false)">Fechar</a>
+				
+				<div  class = "col-lg-12 curriculoPrint" id = "curriculo_print">
+													
+				<h3 id = "campo-nome"></h3>
+					<p id= "campo-nacional-civil-idade"></p>
+					<p id=  "campo-endereco-cep"></p>
+					<p id=  "campo-cidade-uf"></p>
+					<p id= "campo-fone"></p>
+					<p id= "campo-mail"></p>
+							
+				<h4>Objetivo:</h4>
+					<p id = "campo-objetivo"></p>
+			
+										
+				<h4>Resumo das Qualificações:</h4>
+					<p id = "campo-resumo"></p>
+
+				<h4>Escolaridade:</h4>
+					<p id = "campo-escolaridade"></p>
+			
+				<h4>Idiomas:</h4>
+					<p id = "campo-idiomas"></p>
+
+				<h4>Cursos Complementares:</h4>
+					<p id = "campo-complementar"></p>
+		
+				<h4>Informática:</h4>
+					<p id = "campo-informatica"></p>		
+				</div>
+			</div>
+			
+			<script src="assets/js/jquery.js"></script>
+			<script src="assets/js/html2canvas.min.js"></script>
+			<script src="assets/js/curriculo.js"></script>
+			<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
+
+				
+		</body>		
+</html>
